@@ -52,18 +52,7 @@ Here’s an example in **PowerShell**:
 $handbrakePath = "C:\Program Files\HandBrakeCLI\HandBrakeCLI.exe"
 $ffprobePath = "C:\Program Files\FFmpeginfprobe.exe"
 
-# Use the paths in your script
-& "$handbrakePath" --input "video.avi" --output "video.mp4" --preset "Fast 1080p30"
-& "$ffprobePath" -v error -show_entries format=bit_rate -of default=noprint_wrappers=1:nokey=1 "video.mp4"
-```
-
-- The `&` symbol is used to **execute** the program in PowerShell.
-- In **Batch (.bat)** files, you can just call it directly, like:  
-  `"C:\Program Files\HandBrakeCLI\HandBrakeCLI.exe"`
-
----
-
-### 4. (Optional) Add to Windows PATH
+### 4. Add to Windows PATH
 
 If you want Windows to **always recognize** `HandBrakeCLI` and `ffprobe` without specifying the full path:
 
