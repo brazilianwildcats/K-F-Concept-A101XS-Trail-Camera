@@ -62,7 +62,7 @@ If you want Windows to **always recognize** `HandBrakeCLI` and `ffprobe` without
 4. Under **System Variables**, find the **Path** variable and click **Edit**.
 5. Click on **New** and add the following paths:
    - `C:\Program Files\HandBrakeCLI\`
-   - `C:\Program Files\FFmpegin\`
+   - `C:\Program Files\FFmpeg\bin\`
 
 After doing this, you can call `HandBrakeCLI.exe` and `ffprobe.exe` from **anywhere** on your system (including in the terminal/command prompt).
 
