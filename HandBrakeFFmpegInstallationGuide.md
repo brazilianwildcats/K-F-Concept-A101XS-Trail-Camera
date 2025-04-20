@@ -50,7 +50,7 @@ Here’s an example in **PowerShell**:
 ```powershell
 # Define the correct paths
 $handbrakePath = "C:\Program Files\HandBrakeCLI\HandBrakeCLI.exe"
-$ffprobePath = "C:\Program Files\FFmpeginfprobe.exe"
+$ffprobePath = "C:\Program Files\FFmpeg\bin\ffprobe.exe"
 
 ### 4. Add to Windows PATH
 
