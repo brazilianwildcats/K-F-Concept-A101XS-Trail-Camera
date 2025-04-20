@@ -35,7 +35,7 @@ This guide will help you install **HandBrakeCLI** and **FFmpeg** on your Windows
    `C:\Program Files\FFmpeg\`
 
 6. Inside the extracted folder, you will find `ffprobe.exe` located at:  
-   `C:\Program Files\FFmpeginfprobe.exe`
+   `C:\Program Files\FFmpeg\bin\ffprobe.exe`
 
 ---
 
