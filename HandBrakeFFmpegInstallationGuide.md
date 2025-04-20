@@ -72,7 +72,6 @@ After doing this, you can call `HandBrakeCLI.exe` and `ffprobe.exe` from **anywh
 
 Open PowerShell or Command Prompt and type:
 
-```bash
 HandBrakeCLI --version
 ffprobe -version
 ```
