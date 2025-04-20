@@ -85,7 +85,7 @@ If both commands return version numbers, everything is working correctly.
 | Program         | Suggested Location                  | Required Executable   |
 |:----------------|:------------------------------------|:-----------------------|
 | HandBrakeCLI    | `C:\Program Files\HandBrakeCLI\`    | `HandBrakeCLI.exe`     |
-| FFmpeg          | `C:\Program Files\FFmpegin\`      | `ffprobe.exe` (found in `/bin`) |
+| FFmpeg          | `C:\Program Files\FFmpeg\bin\`      | `ffprobe.exe` (found in `/bin`) |
 
 ---
 
